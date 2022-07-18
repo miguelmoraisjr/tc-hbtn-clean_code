@@ -19,7 +19,7 @@ public class Functions {
         }
         return userRepository.save(user);
     }
-    
+
     public Environment getEnvironment(){
         return environmentService.getEnvironment(getVersion());
     }
